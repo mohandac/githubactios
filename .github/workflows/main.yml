@@ -8,10 +8,5 @@ jobs:
         run: echo "Hello World devops!"
       - name: my-step2
         run: echo "hello"
-      - name: actions/checkout@v4
-        run: npm ci
-      - name: actions/setup-node@v4
-        run: npm test
-      - name: node-version 18
-        run: npm version
+     
           
