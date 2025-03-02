@@ -9,7 +9,7 @@ jobs:
       - name: my-step2
         run: echo "hello"
       - name: npm istall soft
-        run: npm install
+        run: npm ci
       - name: npm verified
         run: npm version
         
